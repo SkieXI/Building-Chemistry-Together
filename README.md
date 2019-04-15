@@ -16,7 +16,8 @@ The idea for Building Chemistry Together came from asking a few students who wer
 # Current Development
 The main approach toward development was to follow a somewhat parallel to the MVC framework. Starting with creating classes for each element: 
 
-'''public class H : MonoBehaviour
+```
+public class H : MonoBehaviour
 {
     //Constructor to apply values to each variable.
     public H(string name, int publicNumber, int valance, int protons, int neutrons, int electrons, double mass, string trivia)
@@ -43,7 +44,8 @@ The main approach toward development was to follow a somewhat parallel to the MV
     public int neutrons { get; set; }       // Number of Neutrons
     public int electrons { get; set; }      // Number of Electrons
     public string trivia { get; set; }      // Trivia or interesting fact.
-}'''
+}
+```
 
 What held back development the most were a number of personal issues and outside factors that made development hard to keep up with as they were a large toll on the developer’s mental and emotional well being. 
 Despite that, once things have settled down, development was able to resume and a few features were able to be implemented in the end, though this version of the product is far from being suitable for a release state. Development will continue on during the summer. 
