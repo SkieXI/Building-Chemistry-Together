@@ -77,3 +77,5 @@ Full flowchart.
 Proposed Wireframe. 
 
 # Video Screencast.
+
+[Link to Loom Video](https://www.loom.com/share/d420bfd0f6ee4bd69a6c53216151c262)
