@@ -38,15 +38,29 @@ public class H : MonoBehaviour
     public int valance { get; set; }        // The number of valance electrons
     public Vector3 valancePOS { get; set; } // The positions of the valance electrons
     public GameObject Hydrogen = GameObject.CreatePrimitive(PrimitiveType.Sphere);  //Which type of prefab is to be created.
-    public int RayD = 1;                    // ???
-    public LayerMask Test;                  // ??
+    public int RayD = 1;                    // Ray Distance, the distance betweeen the nucius and the electrons
+    public LayerMask Test;                  // ???
     public int protons { get; set; }        // Number of Protons 
     public int neutrons { get; set; }       // Number of Neutrons
     public int electrons { get; set; }      // Number of Electrons
     public string trivia { get; set; }      // Trivia or interesting fact.
 }
 ```
+From here, each element class would be inherited by the AtomScrip class that would match up each atomic symbol with the class name and pull the variable information and then pass it on to the class called CreateAndDrag which would instantiate a new prefab based on each element and apply different variables into it. 
+
+From there, the prefab would follow the mouse’s movement and either remain in memory if it is inside of a cylinder mesh, or be destroyed if Unity doesn’t see the prefab colliding with said mesh. There are two different meshes that can be used to create two different atomic structures. Once development resumes, these two atomic structures can be combined for better quality of life building. 
+
 
 What held back development the most were a number of personal issues and outside factors that made development hard to keep up with as they were a large toll on the developer’s mental and emotional well being. 
 Despite that, once things have settled down, development was able to resume and a few features were able to be implemented in the end, though this version of the product is far from being suitable for a release state. Development will continue on during the summer. 
 
+# Future Development
+
+Due to the number of development setbacks, there are many functions; both basic and quality of life that are missing from the current build of the project. These functions are documented within the project’s Requirement page, and will be implements or improved upon either during the summer, or the following semester. 
+These functionalities include:
+* The ability to add or subtract electrons or protons.
+* The ability for the game screen to display the number of valance electrons and if the atomic structure is stable or not.
+* Better strut support so atoms are more rigid. 
+* The ability to save and load projects for future use.
+* The ability to create and save screenshots of the current atomic structures in use.
+* The ability to view all information of an element in a separate screen. 
