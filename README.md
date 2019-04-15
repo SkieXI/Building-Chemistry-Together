@@ -5,8 +5,8 @@ Capstone Project for Spring 2019
 * Original Concept
 * Currrent Development
 * Future Development
-* Notes and Oddities
-* Link to Video Presentation 
+* Graphs and Flowcharts
+* Video Screencast
 
 
 # Original Concept
@@ -66,3 +66,14 @@ These functionalities include:
 * The ability to save and load projects for future use.
 * The ability to create and save screenshots of the current atomic structures in use.
 * The ability to view all information of an element in a separate screen. 
+
+# Graphs and Flowcharts.
+
+
+![Full Flowchart](/Documentation/2A.png)
+Full flowchart.
+
+![Wire Frame](/Documentation/3A.png)
+Proposed Wireframe. 
+
+# Video Screencast.
