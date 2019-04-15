@@ -13,6 +13,8 @@ Capstone Project for Spring 2019
 
 The idea for Building Chemistry Together came from asking a few students who were about to gradutate from GCU in the spring of 2018 if there were any major tools or applications that they wish they had while studying. One idea that came up several times was the idea of having an application that could display 3D models. From there, it was a matter of figuring out which game engine or IDE would be best suited for creating the program.
 
+![Site Map](/Documentation/1B.png)
+
 # Current Development
 The main approach toward development was to follow a somewhat parallel to the MVC framework. Starting with creating classes for each element: 
 
